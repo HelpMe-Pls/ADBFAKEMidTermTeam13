@@ -16,6 +16,16 @@ namespace ADBTeam13_DB4O
         public Employee Manager { get; set; }
         public double Salary { get; set; }
 
+        public Employee(int id, string fullName, string skill, Company homeBase, Employee manager, double salary)
+        {
+            ID = id;
+            FullName = fullName;
+            Skill = skill;
+            HomeBase = homeBase;
+            Manager = manager;
+            Salary = salary;
+        }
+
         public override string ToString()
         {
             return string.Format("{0}, {1} ({2})", FullName, Skill, Salary);
