@@ -40,6 +40,24 @@ namespace ADBTeam13_DB4O
             }
 
             db.Close();
+
+            //Câu 1.7
+            int tmp = 0;
+            IList<Company> r = db.Query(delegate (Company a)
+            {
+               foreach(Employee e in a.Employees)
+                {
+                    tmp++;
+                    if (e.Salary <= 500) return false;
+                }
+                if (tmp <= 2) return false;
+                return true;
+            });
+            //Xuất kết quả 
+            foreach(Company com in r)
+            {
+                Console.WriteLine(com.ToString());
+            }
         }
 
         // Câu 1.4
