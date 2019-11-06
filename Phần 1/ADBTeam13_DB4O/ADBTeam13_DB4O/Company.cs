@@ -27,5 +27,6 @@ namespace ADBTeam13_DB4O
             Street = street;
             City = city;
         }
+        public List<Employee> Employees { get; set; }
     }
 }
