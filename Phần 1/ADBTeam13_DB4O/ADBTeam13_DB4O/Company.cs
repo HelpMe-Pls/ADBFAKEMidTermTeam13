@@ -19,5 +19,13 @@ namespace ADBTeam13_DB4O
         {
             return CompanyName;
         }
+        public Company(int id, string name, string housenumber, string street, string city)
+        {
+            CompanyID = id;
+            CompanyName = name;
+            HouseNumber = housenumber;
+            Street = street;
+            City = city;
+        }
     }
 }
