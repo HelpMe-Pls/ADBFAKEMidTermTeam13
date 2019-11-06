@@ -31,7 +31,7 @@ namespace ADBTeam13_DB4O
             Console.WriteLine("Kết quả truy vấn là: ");
             foreach (Employee emp in employees)
             {
-                Console.WriteLine(emp.ToString());               
+                Console.WriteLine(emp.ToString());
             }
         }
     }
