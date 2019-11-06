@@ -34,13 +34,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Db4objects.Db4o">
-      <HintPath>..\..\..\..\..\..\..\Desktop\Ref\net-4.0\Db4objects.Db4o.dll</HintPath>
+      <HintPath>..\..\..\..\net-4.0\Db4objects.Db4o.dll</HintPath>
     </Reference>
     <Reference Include="Db4objects.Db4o.Linq">
-      <HintPath>..\..\..\..\..\..\..\Desktop\Ref\net-4.0\Db4objects.Db4o.Linq.dll</HintPath>
+      <HintPath>..\..\..\..\net-4.0\Db4objects.Db4o.Linq.dll</HintPath>
     </Reference>
     <Reference Include="Db4objects.Db4o.NativeQueries">
-      <HintPath>..\..\..\..\..\..\..\Desktop\Ref\net-4.0\Db4objects.Db4o.NativeQueries.dll</HintPath>
+      <HintPath>..\..\..\..\net-4.0\Db4objects.Db4o.NativeQueries.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
