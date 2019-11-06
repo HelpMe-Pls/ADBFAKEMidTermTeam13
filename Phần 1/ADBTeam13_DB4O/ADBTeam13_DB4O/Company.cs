@@ -19,6 +19,5 @@ namespace ADBTeam13_DB4O
         {
             return CompanyName;
         }
-        
     }
 }
